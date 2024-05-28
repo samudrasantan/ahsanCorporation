@@ -184,7 +184,7 @@
   .drape-2 {
     position: absolute;
     left: 0; right: 0; top:0;
-    height: 30vh;
+    height: 30dvh;
     opacity: .4;
   }
   
@@ -196,7 +196,7 @@
   
   .heroImage img {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     object-fit: cover;
   }
   
@@ -266,7 +266,7 @@
   
   .baseSlide {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
   }
   
@@ -278,7 +278,7 @@
   
   .baseNav {
     box-sizing: border-box;
-    height: 10vh; 
+    height: 10dvh; 
     padding-left: 2vw;
     padding-right: 2vw;
   }
@@ -325,8 +325,8 @@
   
   .baseHeroText {
     box-sizing: border-box;
-     padding: 2vw;
-    height: 90vh;
+    padding: 2vw;
+    height: 90dvh;
   }
   
   .baseMembership {
@@ -336,20 +336,20 @@
   }
   
   .baseHeading {
-    height: 10vh;
+    height: 10dvh;
     padding: 2vw;
     box-sizing: border-box;
   }
   
   .baseContent {
     box-sizing: border-box;
-    height: 90vh;
+    height: 90dvh;
   }
   
   .itemVegetables {
   
     width: 20vw;
-    height: 50vh;
+    height: 50dvh;
     padding: 2vw;
   
   }
@@ -371,7 +371,7 @@
   
   .textAbout {
   
-    height: 80vh;
+    height: 80dvh;
   
     padding-left: 2vw;
     padding-right: 2vw;
@@ -382,7 +382,7 @@
   .imageAbout {
     box-sizing: border-box;
     margin-right: 2vw;
-    height: 88vh;
+    height: 88dvh;
     
   }
   
@@ -391,7 +391,7 @@
   .imageAbout img {
   
     width: 48vw;
-    height:80vh;
+    height:80dvh;
     object-fit: cover;
     
     align-items: flex-end;
@@ -408,14 +408,14 @@
   }
   
   .reasonSlot {
-    width: 27vh;
-    height: 27vh;
+    width: 27dvh;
+    height: 27dvh;
     overflow: hidden;
     box-sizing: border-box;
   }
   
   .reasonSlot img {
-    width: 27vh;
-    height: 27vh;
+    width: 27dvh;
+    height: 27dvh;
     object-fit: cover;
   }

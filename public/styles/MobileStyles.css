@@ -21,8 +21,12 @@
     /* */
 
     .baseNav {
-        padding-left: 4vw;
-        padding-right: 4vw;
+        padding-left: 5vw;
+        padding-right: 6vw;
+    }
+
+    .baseLogo {
+        font-size: 5vw !important;
     }
 
     .baseMenu {
@@ -40,13 +44,15 @@
         left: 0; right: 0; top:0;
         height: 100vh;
         flex-direction: column;
-
-
-
     }
 
     .iconMenu {
         display: block;
+    }
+
+    .barMenu_1, .barMenu_2, .barMenu_3 {
+        width: 40px;
+        height: 3px;
     }
 
 
