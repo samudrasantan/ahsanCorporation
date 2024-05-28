@@ -1,0 +1,16 @@
+<div id="iconMenu" class="iconMenu">
+    <div class="barMenu_1"></div>
+    <div class="barMenu_2"></div>
+    <div class="barMenu_3"></div>
+</div>
+
+
+<script>
+    document.getElementById("iconMenu").addEventListener('click', ()=> {
+          const self = document.getElementById("iconMenu")
+          const baseMenu = document.getElementById("baseMenu")
+          self.classList.toggle("clickedMenu")
+          baseMenu.classList.toggle("baseMenu")
+          baseMenu.classList.toggle("baseMenuVisible")
+      })
+  </script>

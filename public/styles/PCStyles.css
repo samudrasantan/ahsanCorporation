@@ -1,0 +1,421 @@
+
+:root {
+
+    --green :  rgb(2, 39, 2);
+    --darkLeaves: rgb(74,83,49);
+    --sage: rgb(157, 193, 131);
+    --lightGreen: rgb(246,242,225);
+  
+  
+    
+  }
+  
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .h-u:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .pad-2 {
+    padding: 2vw;
+  }
+  /* FLEX */
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .col {
+    flex-direction: column;
+  }
+  
+  .jc-c {
+    justify-content: center;
+  }
+  
+  .jc-e {
+    justify-content: end;
+  }
+  .jc-sb {
+    justify-content: space-between;
+    
+  }
+  
+  .gap-2 {
+    gap: 2vw;
+  }
+  
+  .gap-4 {
+    gap: 4vw;
+  }
+  
+  .center {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aa-c {
+    align-items: center;
+  }
+  
+  
+  /* Width */
+  
+  .width50 {
+  
+    width: 50vw;
+  
+  }
+  
+  
+  /* TEXT */
+  
+  .tc-w {
+    color: white;
+  }
+  
+  .tc-dg {
+  
+    color: var(--darkLeaves)
+  }
+  
+  .tc-g {
+    color: gold;
+  }
+  
+  .tc-gr {
+    color: goldenrod;
+  }
+
+  .tc-sage {
+    color: var(--sage);
+  }
+  
+  .ts-1 {
+    font-size: 1vw;
+  }
+  
+  .ts-1_5 {
+    font-size: 1.5vw;
+  }
+  
+  .ts-2 {
+    font-size: 2vw;
+  }
+  
+  .ts-2_5 {
+  
+    font-size: 2.5vw;
+  
+  }
+  
+  .ts-3 {
+    font-size: 3vw;
+  }
+  
+  .ts-4 {
+    font-size: 4vw;
+  }
+  
+  .ts-5 {
+    font-size: 5vw;
+  }
+  
+  
+  .tw-6 {
+    font-weight: 600;
+  }
+  
+  .tw-7 {
+    font-weight: 700;
+  }
+  .tw-9 {
+    font-weight: 900;
+  }
+  
+  
+  .ta-c {
+  
+    text-align: center;
+  }
+  
+  .ta-j {
+    text-align: justify;
+  }
+  
+  .ta-cj {
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  .z-1 {
+    z-index: 1;
+  }
+  
+  .z-2 {
+    z-index: 2;
+  }
+  
+  .z-3 {
+    z-index: 3;
+  }
+  
+  .drape {
+    position: absolute;
+    left: 0; right: 0; top:0; bottom: 0;
+    opacity: .5;
+    
+  }
+
+  .drape-2 {
+    position: absolute;
+    left: 0; right: 0; top:0;
+    height: 30vh;
+    opacity: .4;
+  }
+  
+  .heroImage {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    overflow: hidden;
+  }
+  
+  .heroImage img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .bg-g {
+    background-color: var(--darkLeaves);
+  }
+  
+  .bg-sage {
+    background-color: var(--sage);
+  }
+  
+  .bg-grad {
+    background: rgb(2,39,2);
+    background: linear-gradient(180deg, rgba(2,39,2,1) 0%, rgba(2,39,2,0) 100%);
+    
+  }
+  
+  .bg-lg {
+    background-color: var(--lightGreen);
+  }
+  
+  .bg-gold {
+    background-color: gold;
+  }
+
+  
+  .blar-1 {
+    /* From https://css.glass */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  }
+   
+  .blur-2 {
+    /* From https://css.glass */
+  background: var(--darkLeaves);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  }
+  
+  .blar-3 {
+    background: rgba( 248, 231, 28, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 14px );
+  -webkit-backdrop-filter: blur( 14px );
+  border-radius: 10px;
+  border: 1px solid rgba(212, 175, 55, .8);
+  
+  }
+  
+  .polka {
+  
+    background-image: radial-gradient(var(--darkLeaves) 1px, transparent 1px);
+  background-size: 2px 2px;
+  background-color: rgba(13, 57, 21, 0);
+  
+  }
+  
+  .tv{
+  
+  background-image: repeating-linear-gradient(0deg, var(--darkLeaves), var(--darkLeaves) 1px, transparent 1px, transparent);
+  background-size: 2px 2px;
+  }
+  
+  
+  
+  .baseSlide {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .backImage1 {
+    background-image: url("../Images/IMG_0988.jpeg");
+    background-size: cover;
+    background-color: var(--green);
+  }
+  
+  .baseNav {
+    box-sizing: border-box;
+    height: 10vh; 
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .baseMenu {
+    padding-right: 4vw;
+  }
+
+
+  
+  .baseLogo {
+    box-sizing: border-box;
+  }
+
+  .iconMenu {
+    cursor: pointer;
+    display: none;
+  }
+
+
+  
+  .barMenu_1, .barMenu_2, .barMenu_3 {
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 6px 0;
+  transition: 0.4s;
+  }
+  
+  .clickedMenu .barMenu_1 {
+  transform: translate(0, 8px) rotate(-45deg);
+  }
+  
+  
+  .clickedMenu .barMenu_3 {
+  transform: translate(0, -8px) rotate(45deg);
+  }
+  
+  .clickedMenu .barMenu_2 {
+  opacity: 0;
+  }
+  
+  
+  .baseHeroText {
+    box-sizing: border-box;
+     padding: 2vw;
+    height: 90vh;
+  }
+  
+  .baseMembership {
+  
+    height: 11vw;
+    width: 11vw;
+  }
+  
+  .baseHeading {
+    height: 10vh;
+    padding: 2vw;
+    box-sizing: border-box;
+  }
+  
+  .baseContent {
+    box-sizing: border-box;
+    height: 90vh;
+  }
+  
+  .itemVegetables {
+  
+    width: 20vw;
+    height: 50vh;
+    padding: 2vw;
+  
+  }
+  
+  .itemMore {
+  
+    padding: 2vw;
+  }
+  
+  .textVegetables {
+    flex: 1;
+  }
+  
+  .photoVegetables img {
+  
+    width: 100%;
+    height: auto;
+  }
+  
+  .textAbout {
+  
+    height: 80vh;
+  
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-sizing: border-box;
+    
+  }
+  
+  .imageAbout {
+    box-sizing: border-box;
+    margin-right: 2vw;
+    height: 88vh;
+    
+  }
+  
+  
+  
+  .imageAbout img {
+  
+    width: 48vw;
+    height:80vh;
+    object-fit: cover;
+    
+    align-items: flex-end;
+  
+  }
+  
+  .assNameAbout {
+    padding: 2vw;
+    width: 20vw;
+  
+    box-sizing: border-box;
+    margin: 1vw;
+    border-radius: 10px;
+  }
+  
+  .reasonSlot {
+    width: 27vh;
+    height: 27vh;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .reasonSlot img {
+    width: 27vh;
+    height: 27vh;
+    object-fit: cover;
+  }

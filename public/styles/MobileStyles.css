@@ -1,0 +1,83 @@
+@media only screen and (max-width: 999px) and (orientation: portrait) {
+
+    /* Text */
+
+    .ts-2 {
+
+        font-size: 4vw;
+    }
+
+    .ts-5 {
+        font-size: 10vw;
+    }
+
+
+    /* Flex */
+
+    .gap-2 {
+        gap: 4vw;
+    }
+
+    /* */
+
+    .baseNav {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .baseMenu {
+        display: none;
+    }
+
+    .itemMenu {
+        font-size: larger !important;
+    }
+
+    .baseMenuVisible {
+
+        background-color: var(--darkLeaves);
+        position: fixed;
+        left: 0; right: 0; top:0;
+        height: 100vh;
+        flex-direction: column;
+
+
+
+    }
+
+    .iconMenu {
+        display: block;
+    }
+
+
+    .tv{
+        background-size: 2px 2px;
+        }
+
+
+
+    .baseHeroText {
+        flex-direction: column;
+        padding-left: 4vw;
+        justify-content: space-between;
+       
+    }
+
+    .mainHeroText{
+        align-items: center;
+        justify-content: start !important;
+    }
+
+    .baseMembership {
+        height: 22vw;
+        width: 22vw;
+    }
+
+    .headMembership{
+        font-weight: 400 !important;
+    }
+
+    
+    
+    
+}

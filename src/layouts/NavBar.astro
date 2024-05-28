@@ -1,0 +1,21 @@
+
+---
+import navData from "../data/navData"
+import MenuItem from "./MenuItem.astro"
+import DrawerIcon from "./DrawerIcon.astro"
+---
+
+<div class="baseNav z-3 flex jc-sb tc-w aa-c">
+    <div class="baseLogo tw-7 ts-2 flex center">Aahsan Corporation</div>
+    <div id = "baseMenu" class="baseMenu flex center gap-2 tw-6">
+
+      {
+        navData.map((i)=> (
+          <a href={i.path}>
+        <MenuItem itemName = {i.name}/>
+      </a>
+        ))
+      }
+    </div>
+    <DrawerIcon/>
+  </div>
